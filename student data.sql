@@ -1,0 +1,28 @@
+use env;
+create table student(s_name varchar(20),Age int(20),Gender varchar(5),s_marks int(20));
+select * from student;
+
+insert into student values("Hari",23,'M',96);
+insert into student values("Naresh",23,'M',70);
+insert into student values("Praveen",23,'M',73);
+insert into student values("Mahaboob",23,'M',60);
+insert into student values("Geetha",23,'F',79);
+insert into student values("Mahaboob",23,'M',70);
+insert into student values("suresh",26,'M',70);
+insert into student values("Naveen",23,'M',65);
+insert into student values("sudhakar",27,'M',70);
+insert into student values("Manisha",21,'M',85);
+insert into student values("Maheshwari",23,'F',70);
+insert into student values("Manusha",29,'F',80);
+insert into student values("Saritha",26,'F',60);
+insert into student values("swathi",25,'F',65);
+insert into student values("Manaka",23,'F',70);
+insert into student values("Rahul",23,'F',65);
+insert into student values("Kishor",19,'M',90);
+insert into student values("joyal",18,'M',80);
+insert into student values("aparna",17,'F',68);
+insert into student values("saraswathi",23,'F',98);
+insert into student values("mounika",23,'F',70);
+insert into student values("samson",28,'M',81);
+insert into student values("sachin",16,'M',81);
+insert into student values("venu",22,'M',83);
